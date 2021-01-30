@@ -4,6 +4,6 @@
 项目地址在 https://github.com/yunxiao3/MyRaft
 （在本文件下也可以直接查看）其中raft目录是mit lab的实现，myraft是将其改为grpc通信，geo-raft则是新的协议。Notes中是lab实现的一些记录。
 
-###　2.读书报告
+### 2.读书报告
 
 由于这学期主要做的是一致性方面的工作，读书文档我主要是写的我对《Bitcoin: A Peer-to-Peer Electronic Cash System》中为什么使用Pow一致性协议的一些体会，主要包括：1. Bitcoin为什么使用proof of work的机制来确认大多数以达成一致，2. Bitcoin如何通过巧妙的设计在一个开放的系统中保持一致性并且防止forgery double spending。3. bitcoin的安全性并非牢不可破。
