@@ -37,4 +37,11 @@ public interface Messenger {
      * @param acceptedValue 已接受值
      */
     void sendAccepted(long acceptedId, String acceptedValue);
+
+    /**
+     * 发送已学习到的
+     * @param acceptedId 已接受ID
+     * @param acceptedValue 已接受值
+     */
+    void sendLearned(long acceptedId, String acceptedValue);
 }
