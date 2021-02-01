@@ -15,5 +15,5 @@ POW共识机制
 
 效果截图
 
-![](/Users/liu/Documents/JAVA/22051216刘瑞洋/src/执行效果.png)
+![](src/执行效果.png)
 
